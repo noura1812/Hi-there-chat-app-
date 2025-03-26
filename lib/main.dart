@@ -20,9 +20,6 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.teal,
-        backgroundColor: Colors.teal,
-        accentColor: const Color(0xFF305955),
-        accentColorBrightness: Brightness.dark,
         textButtonTheme: TextButtonThemeData(
           style: ButtonStyle(
               foregroundColor: MaterialStateProperty.resolveWith(
