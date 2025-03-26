@@ -34,9 +34,7 @@ class MessageBubble extends StatelessWidget {
         Flexible(
           child: Container(
             decoration: BoxDecoration(
-                color: isMe
-                    ? Theme.of(context).primaryColor
-                    : Theme.of(context).accentColor,
+                color: Theme.of(context).primaryColor,
                 borderRadius: BorderRadius.only(
                     topLeft: const Radius.circular(14),
                     topRight: const Radius.circular(14),
